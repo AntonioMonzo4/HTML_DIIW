@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COMPARACION IMÁGENES</title>
+</head>
+
+<style>
+  table {
+      width: 100%;
+      border-collapse: collapse;
+  }
+  th, td {
+      border: 1px solid black;
+      text-align: center;
+      padding: 8px;
+  }
+  th {
+      background-color: #f2f2f2;
+  }
+  .true {
+      background-color: #c6efce;
+      color: #006100;
+  }
+  .false {
+      background-color: #ffc7ce;
+      color: #9c0006;
+  }
+</style>
+
+<body>
+  <div>
+    <p>metro.bmp sin pérdida</p>
+    <img src="metro.bmp" alt="">
+</div>
+
+<div>
+    <p>Metro.jpg 70%</p>
+    <img src="metros.jpg" alt="">
+</div>
+<div>
+    <p>Metro.jpg sin pérdida</p>
+    <img src="metro.jpg" alt="">
+</div>
+
+<div>
+    <p>Metro.gif sin pérdida</p>
+    <img src="metro.gif" alt="">
+</div>
+
+<div>
+    <p>Metro.png sin pérdida</p>
+    <img src="metro.png" alt="">
+</div>
+
+<div>
+    <p>Metro.wepp 70%</p>
+    <img src="metros.webp" alt="">
+</div>
+<div>
+    <p>Metro.wepp sin pérdida</p>
+    <img src="metro.webp" alt="">
+</div>
+
+<div>
+    <p>Metro.heif 70%</p>
+    <img src="metros.heif" alt="">
+</div>
+<div>
+    <p>Metro.heif sin pérdida</p>
+    <img src="metro.heif" alt="">
+</div>
+
+<div>
+    <p>Metro.avif 70%</p>
+    <img src="metros.avif" alt="">
+</div>
+<div>
+    <p>Metro.avif sin pérdida</p>
+    <img src="metro.avif" alt="">
+</div>
+
+
+        <table>
+          <thead>
+              <tr>
+                  <th>Formato</th>
+                  <th>Tamaño</th>
+                  <th>Calidad</th>
+                  <th>Permite Transparencias</th>
+                  <th>Canal Alpha</th>
+                  <th>Compatibilidad con Navegadores</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr>
+                  <td>BMP</td>
+                  <td>7.201 KB</td>
+                  <td>Alta</td>
+                  <td class="false">NO</td>
+                  <td class="false">NO</td>
+                  <td class="true">SÍ</td>
+              </tr>
+              <tr>
+                  <td>JPG (70%)</td>
+                  <td>478 KB</td>
+                  <td>Media</td>
+                  <td class="false">NO</td>
+                  <td class="false">NO</td>
+                  <td class="true">SÍ</td>
+              </tr>
+              <tr>
+                  <td>JPG (100%)</td>
+                  <td>540 KB</td>
+                  <td>Alta</td>
+                  <td class="false">NO</td>
+                  <td class="false">NO</td>
+                  <td class="true">SÍ</td>
+              </tr>
+              <tr>
+                  <td>GIF</td>
+                  <td>1.267 KB</td>
+                  <td>Media</td>
+                  <td class="true">SÍ</td>
+                  <td class="false">NO</td>
+                  <td class="true">SÍ</td>
+              </tr>
+              <tr>
+                  <td>PNG</td>
+                  <td>3.942 KB</td>
+                  <td>Alta</td>
+                  <td class="true">SÍ</td>
+                  <td class="true">SÍ</td>
+                  <td class="true">SÍ</td>
+              </tr>
+              <tr>
+                  <td>WEBP (70%)</td>
+                  <td>255 KB</td>
+                  <td>Media</td>
+                  <td class="true">SÍ</td>
+                  <td class="true">SÍ</td>
+                  <td class="true">SÍ</td>
+              </tr>
+              <tr>
+                  <td>WEBP (sin pérdida)</td>
+                  <td>2.634 KB</td>
+                  <td>Alta</td>
+                  <td class="true">SÍ</td>
+                  <td class="true">SÍ</td>
+                  <td class="true">SÍ</td>
+              </tr>
+              <tr>
+                <td>HEIF (70%)</td>
+                <td>659 KB</td>
+                <td>Alta</td>
+                <td class="true">SÍ</td>
+                <td class="true">SÍ</td>
+                <td class="true">SÍ</td>
+            </tr>
+            <tr>
+                <td>HEIF (sin pérdida)</td>
+                <td>2.563 KB</td>
+                <td>Alta</td>
+                <td class="true">SÍ</td>
+                <td class="true">SÍ</td>
+                <td class="true">SÍ</td>
+            </tr>
+            <tr>
+                <td>AVIF (70%)</td>
+                <td>360 KB</td>
+                <td>Alta</td>
+                <td class="true">SÍ</td>
+                <td class="true">SÍ</td>
+                <td class="true">SÍ</td>
+            </tr>
+            <tr>
+                <td>AVIF (sin pérdida)</td>
+                <td>2.244 KB</td>
+                <td>Alta</td>
+                <td class="true">SÍ</td>
+                <td class="true">SÍ</td>
+                <td class="true">SÍ</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+
+</html>
