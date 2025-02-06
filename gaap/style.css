@@ -1,0 +1,157 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+/* Estilos del header */
+header {
+    background-color: #8B0000;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+header img {
+    height: 60px;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.navbar ul li a:hover {
+    color: #FFD700;
+}
+
+/* Estilos del contenido central */
+.central {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: #fff;
+}
+
+.quien {
+    width: 60%;
+    background: #ffe6e6;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 500px;
+}
+
+.contacto {
+    width: 17%;
+    background: #ffe6e6;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #333;
+}
+
+.contacto img {
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+h3 {
+    border-bottom: 2px solid #8B0000;
+    padding-bottom: 5px;
+}
+
+/* Estilos del footer */
+footer {
+    background-color: #8B0000;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.listas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.listas-contenedor {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: flex-start;
+    text-align: left;
+    height: 270px;
+
+}
+
+.listas .lista-container {
+    width: 30%;
+    text-align: left;
+}
+
+.listas .lista-container h2 {
+    color: #FFD700;
+    border-bottom: 2px solid #FFD700;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.listas .lista-container ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    text-align: left;
+} 
+
+.listas .lista-container ul li {
+    padding: 5px 0;
+    text-align: left;
+}
+
+.contacto>img{
+    width: 100px;
+    height: 100px;
+}
+
+.contenedor>img{
+    width: 400px;
+    height: 400px;
+}
+.contenedor{
+    display: flex;
+    flex-direction: row;
+}
+
+.tiposP{
+
+    background: #ffe6e6;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 500px;
+
+}
