@@ -31,5 +31,4 @@ Este repositorio es de uso académico y no se contemplan contribuciones externas
 ## Licencia
 
 Este proyecto se distribuye bajo la licencia MIT. Para más detalles, consulta el archivo `LICENSE` en este repositorio.
-
-```
+`
